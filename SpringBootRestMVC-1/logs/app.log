@@ -1,0 +1,258 @@
+2019-06-26 09:51:00,996 INFO c.m.SpringBootRestMvc1Application [main] Starting SpringBootRestMvc1Application on Meelans-MacBook-Pro.local with PID 6812 (/Users/meelan/Desktop/STS_WorkSpace/SpringBootRestMVC-1/target/classes started by meelan in /Users/meelan/Desktop/STS_WorkSpace/SpringBootRestMVC-1)
+2019-06-26 09:51:01,001 DEBUG c.m.SpringBootRestMvc1Application [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 09:51:01,002 INFO c.m.SpringBootRestMvc1Application [main] No active profile set, falling back to default profiles: default
+2019-06-26 09:51:03,593 INFO c.m.SpringBootRestMvc1Application [main] Started SpringBootRestMvc1Application in 3.04 seconds (JVM running for 4.72)
+2019-06-26 09:51:33,595 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-3] Starting Spring Boot application..
+2019-06-26 09:51:33,597 DEBUG c.m.SpringBootRestMvc1Application [http-nio-8080-exec-3] Deubging..
+2019-06-26 09:51:33,597 ERROR c.m.SpringBootRestMvc1Application [http-nio-8080-exec-3] Error..
+2019-06-26 09:51:35,293 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-5] Starting Spring Boot application..
+2019-06-26 09:51:35,293 DEBUG c.m.SpringBootRestMvc1Application [http-nio-8080-exec-5] Deubging..
+2019-06-26 09:51:35,294 ERROR c.m.SpringBootRestMvc1Application [http-nio-8080-exec-5] Error..
+2019-06-26 10:53:46,141 INFO c.m.SpringBootRestMvc1Application [main] Starting SpringBootRestMvc1Application on Meelans-MacBook-Pro.local with PID 6881 (/Users/meelan/Desktop/STS_WorkSpace/SpringBootRestMVC-1/target/classes started by meelan in /Users/meelan/Desktop/STS_WorkSpace/SpringBootRestMVC-1)
+2019-06-26 10:53:46,154 DEBUG c.m.SpringBootRestMvc1Application [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 10:53:46,155 INFO c.m.SpringBootRestMvc1Application [main] No active profile set, falling back to default profiles: default
+2019-06-26 10:53:48,202 INFO c.m.SpringBootRestMvc1Application [main] Started SpringBootRestMvc1Application in 2.563 seconds (JVM running for 4.269)
+2019-06-26 10:53:48,204 INFO c.m.m.LogBean [main] Logger Check .....
+2019-06-26 11:18:39,541 INFO c.m.SpringBootRestMvc1Application [main] Starting SpringBootRestMvc1Application on Meelans-MacBook-Pro.local with PID 6921 (/Users/meelan/Desktop/STS_WorkSpace/SpringBootRestMVC-1/target/classes started by meelan in /Users/meelan/Desktop/STS_WorkSpace/SpringBootRestMVC-1)
+2019-06-26 11:18:39,553 DEBUG c.m.SpringBootRestMvc1Application [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 11:18:39,555 INFO c.m.SpringBootRestMvc1Application [main] No active profile set, falling back to default profiles: default
+2019-06-26 11:18:40,814 DEBUG c.m.SpringBootRestMvc1Application$1$1 [main] Filter 'oncePerRequestFilter' configured for use
+2019-06-26 11:18:41,566 INFO c.m.SpringBootRestMvc1Application [main] Started SpringBootRestMvc1Application in 2.468 seconds (JVM running for 4.116)
+2019-06-26 11:18:56,927 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-1] Starting Spring Boot application..
+2019-06-26 11:18:56,928 DEBUG c.m.SpringBootRestMvc1Application [http-nio-8080-exec-1] Deubging..
+2019-06-26 11:18:56,928 ERROR c.m.SpringBootRestMvc1Application [http-nio-8080-exec-1] Error..
+2019-06-26 11:18:56,966 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-1] REQUEST: GET: /emp/all completed within 49 ms
+2019-06-26 11:25:13,234 INFO c.m.SpringBootRestMvc1Application [main] Starting SpringBootRestMvc1Application on Meelans-MacBook-Pro.local with PID 6925 (/Users/meelan/Desktop/STS_WorkSpace/SpringBootRestMVC-1/target/classes started by meelan in /Users/meelan/Desktop/STS_WorkSpace/SpringBootRestMVC-1)
+2019-06-26 11:25:13,245 DEBUG c.m.SpringBootRestMvc1Application [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 11:25:13,246 INFO c.m.SpringBootRestMvc1Application [main] No active profile set, falling back to default profiles: default
+2019-06-26 11:25:14,494 DEBUG c.m.SpringBootRestMvc1Application$1$1 [main] Filter 'oncePerRequestFilter' configured for use
+2019-06-26 11:25:15,262 INFO c.m.SpringBootRestMvc1Application [main] Started SpringBootRestMvc1Application in 2.512 seconds (JVM running for 3.74)
+2019-06-26 11:25:28,637 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Filter execution threw an exception] with root cause
+java.lang.Error: Unresolved compilation problem: 
+	log cannot be resolved
+
+	at com.mlaxn.SpringBootRestMvc1Application$1$1.doFilterInternal(SpringBootRestMvc1Application.java:52) ~[classes/:?]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2019-06-26 11:25:34,516 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Filter execution threw an exception] with root cause
+java.lang.Error: Unresolved compilation problem: 
+	log cannot be resolved
+
+	at com.mlaxn.SpringBootRestMvc1Application$1$1.doFilterInternal(SpringBootRestMvc1Application.java:52) ~[classes/:?]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2019-06-26 11:25:36,827 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Filter execution threw an exception] with root cause
+java.lang.Error: Unresolved compilation problem: 
+	log cannot be resolved
+
+	at com.mlaxn.SpringBootRestMvc1Application$1$1.doFilterInternal(SpringBootRestMvc1Application.java:52) ~[classes/:?]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2019-06-26 11:28:12,905 INFO c.m.SpringBootRestMvc1Application [main] Starting SpringBootRestMvc1Application on Meelans-MacBook-Pro.local with PID 6929 (/Users/meelan/Desktop/STS_WorkSpace/SpringBootRestMVC-1/target/classes started by meelan in /Users/meelan/Desktop/STS_WorkSpace/SpringBootRestMVC-1)
+2019-06-26 11:28:12,911 DEBUG c.m.SpringBootRestMvc1Application [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 11:28:12,912 INFO c.m.SpringBootRestMvc1Application [main] No active profile set, falling back to default profiles: default
+2019-06-26 11:28:14,237 DEBUG c.m.SpringBootRestMvc1Application$1$1 [main] Filter 'oncePerRequestFilter' configured for use
+2019-06-26 11:28:15,001 ERROR o.a.c.u.LifecycleBase [main] Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:296) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.mlaxn.SpringBootRestMvc1Application.main(SpringBootRestMvc1Application.java:34) [classes/:?]
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:461) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:453) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227) ~[?:?]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80) ~[?:?]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	... 14 more
+2019-06-26 11:28:21,518 INFO c.m.SpringBootRestMvc1Application [main] Starting SpringBootRestMvc1Application on Meelans-MacBook-Pro.local with PID 6932 (/Users/meelan/Desktop/STS_WorkSpace/SpringBootRestMVC-1/target/classes started by meelan in /Users/meelan/Desktop/STS_WorkSpace/SpringBootRestMVC-1)
+2019-06-26 11:28:21,525 DEBUG c.m.SpringBootRestMvc1Application [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 11:28:21,526 INFO c.m.SpringBootRestMvc1Application [main] No active profile set, falling back to default profiles: default
+2019-06-26 11:28:22,714 DEBUG c.m.SpringBootRestMvc1Application$1$1 [main] Filter 'oncePerRequestFilter' configured for use
+2019-06-26 11:28:23,482 INFO c.m.SpringBootRestMvc1Application [main] Started SpringBootRestMvc1Application in 2.352 seconds (JVM running for 3.567)
+2019-06-26 11:28:36,496 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-1] Starting Spring Boot application..
+2019-06-26 11:28:36,496 DEBUG c.m.SpringBootRestMvc1Application [http-nio-8080-exec-1] Deubging..
+2019-06-26 11:28:36,497 ERROR c.m.SpringBootRestMvc1Application [http-nio-8080-exec-1] Error..
+2019-06-26 11:28:36,540 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-1] REQUEST: GET: /emp/all completed within 54 ms
+2019-06-26 11:28:38,045 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-2] REQUEST: GET: / completed within 2 ms
+2019-06-26 11:28:38,426 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-3] REQUEST: GET: /swagger-ui.html completed within 7 ms
+2019-06-26 11:28:38,448 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-4] REQUEST: GET: /webjars/springfox-swagger-ui/swagger-ui.css?v=2.9.2 completed within 4 ms
+2019-06-26 11:28:38,453 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-5] REQUEST: GET: /webjars/springfox-swagger-ui/springfox.css?v=2.9.2 completed within 3 ms
+2019-06-26 11:28:38,468 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-7] REQUEST: GET: /webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.9.2 completed within 10 ms
+2019-06-26 11:28:38,473 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-8] REQUEST: GET: /webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.9.2 completed within 3 ms
+2019-06-26 11:28:38,479 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-6] REQUEST: GET: /webjars/springfox-swagger-ui/springfox.js?v=2.9.2 completed within 10 ms
+2019-06-26 11:28:38,865 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-9] REQUEST: GET: /swagger-resources/configuration/ui completed within 59 ms
+2019-06-26 11:28:38,876 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-10] REQUEST: GET: /swagger-resources/configuration/security completed within 7 ms
+2019-06-26 11:28:38,894 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-1] REQUEST: GET: /swagger-resources completed within 12 ms
+2019-06-26 11:28:39,007 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-3] REQUEST: GET: / completed within 5 ms
+2019-06-26 11:28:39,054 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-4] REQUEST: GET: /csrf completed within 3 ms
+2019-06-26 11:28:39,089 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-5] REQUEST: GET: /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 completed within 5 ms
+2019-06-26 11:28:39,103 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-5] REQUEST: GET: /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 completed within 2 ms
+2019-06-26 11:28:39,179 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-2] REQUEST: GET: /v2/api-docs completed within 182 ms
+2019-06-26 11:28:39,353 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-9] REQUEST: GET: /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 completed within 1 ms
+2019-06-26 11:28:39,353 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-6] REQUEST: GET: /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 completed within 1 ms
+2019-06-26 11:28:39,353 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-8] REQUEST: GET: /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 completed within 1 ms
+2019-06-26 11:28:50,862 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-1] REQUEST: GET: /swagger-resources/configuration/ui completed within 2 ms
+2019-06-26 11:28:50,863 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-3] REQUEST: GET: /swagger-resources/configuration/security completed within 2 ms
+2019-06-26 11:28:50,864 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-4] REQUEST: GET: /swagger-resources completed within 2 ms
+2019-06-26 11:28:50,866 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-10] REQUEST: GET: /swagger-ui.html completed within 8 ms
+2019-06-26 11:28:50,870 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-7] REQUEST: GET: / completed within 1 ms
+2019-06-26 11:28:50,871 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-5] REQUEST: GET: /csrf completed within 1 ms
+2019-06-26 11:28:50,882 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-2] REQUEST: GET: /v2/api-docs completed within 12 ms
+2019-06-26 11:28:55,401 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-6] REQUEST: GET: /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 completed within 1 ms
+2019-06-26 11:28:59,570 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-8] Starting Spring Boot application..
+2019-06-26 11:28:59,571 DEBUG c.m.SpringBootRestMvc1Application [http-nio-8080-exec-8] Deubging..
+2019-06-26 11:28:59,571 ERROR c.m.SpringBootRestMvc1Application [http-nio-8080-exec-8] Error..
+2019-06-26 11:28:59,574 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-8] REQUEST: GET: /emp/all completed within 4 ms
+2019-06-26 11:28:59,700 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-9] REQUEST: GET: /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2 completed within 7 ms
+2019-06-26 11:29:16,650 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-1] REQUEST: POST: /emp/add/4/milan/biswkarma completed within 19 ms
+2019-06-26 11:29:18,224 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-3] REQUEST: POST: /emp/add/4/milan/biswkarma completed within 2 ms
+2019-06-26 11:29:35,673 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-4] REQUEST: GET: /emp/get/4 completed within 4 ms
+2019-06-26 11:29:51,889 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-8] REQUEST: GET: /emp/greet/%7Beid%7D?eid=1 completed within 6 ms
+2019-06-26 11:29:52,998 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-9] REQUEST: GET: /emp/greet/%7Beid%7D?eid=1 completed within 8 ms
+2019-06-26 11:30:03,121 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-1] REQUEST: DELETE: /emp/delete/1 completed within 3 ms
+2019-06-26 11:46:57,578 INFO c.m.SpringBootRestMvc1Application [main] Starting SpringBootRestMvc1Application on Meelans-MacBook-Pro.local with PID 6952 (/Users/meelan/Desktop/STS_WorkSpace/SpringBootRestMVC-1/target/classes started by meelan in /Users/meelan/Desktop/STS_WorkSpace/SpringBootRestMVC-1)
+2019-06-26 11:46:57,588 DEBUG c.m.SpringBootRestMvc1Application [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 11:46:57,589 INFO c.m.SpringBootRestMvc1Application [main] No active profile set, falling back to default profiles: default
+2019-06-26 11:46:59,011 DEBUG c.m.SpringBootRestMvc1Application$1$1 [main] Filter 'oncePerRequestFilter' configured for use
+2019-06-26 11:46:59,812 INFO c.m.SpringBootRestMvc1Application [main] Started SpringBootRestMvc1Application in 2.685 seconds (JVM running for 4.009)
+2019-06-26 11:47:53,597 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-8] Starting Spring Boot application..
+2019-06-26 11:47:53,599 DEBUG c.m.SpringBootRestMvc1Application [http-nio-8080-exec-8] Deubging..
+2019-06-26 11:47:53,600 ERROR c.m.SpringBootRestMvc1Application [http-nio-8080-exec-8] Error..
+2019-06-26 11:47:53,618 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-8] REQUEST: GET: /emp/all completed within 21 ms
+2019-06-26 11:48:35,869 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-2] REQUEST: POST: /emp/add/4/milan/kaka completed within 12 ms
+2019-06-26 11:53:09,116 INFO c.m.SpringBootRestMvc1Application [main] Starting SpringBootRestMvc1Application on Meelans-MacBook-Pro.local with PID 6960 (/Users/meelan/Desktop/STS_WorkSpace/SpringBootRestMVC-1/target/classes started by meelan in /Users/meelan/Desktop/STS_WorkSpace/SpringBootRestMVC-1)
+2019-06-26 11:53:09,125 DEBUG c.m.SpringBootRestMvc1Application [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 11:53:09,126 INFO c.m.SpringBootRestMvc1Application [main] No active profile set, falling back to default profiles: default
+2019-06-26 11:53:10,407 DEBUG c.m.SpringBootRestMvc1Application$1$1 [main] Filter 'oncePerRequestFilter' configured for use
+2019-06-26 11:53:11,221 INFO c.m.SpringBootRestMvc1Application [main] Started SpringBootRestMvc1Application in 2.616 seconds (JVM running for 3.945)
+2019-06-26 11:53:37,471 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-9] Starting Log
+2019-06-26 11:53:37,491 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-9] REQUEST: POST: /emp/add/5/kaka/mora completed within 19 ms
+2019-06-26 11:53:51,555 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-3] Starting Log
+2019-06-26 11:53:51,566 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-3] REQUEST: GET: /emp/all completed within 10 ms
+2019-06-26 11:54:05,719 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-2] Starting Log
+2019-06-26 11:54:05,724 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-2] REQUEST: DELETE: /emp/delete/4 completed within 5 ms
+2019-06-26 11:54:13,625 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-4] Starting Log
+2019-06-26 11:54:13,628 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-4] REQUEST: GET: /emp/all completed within 2 ms
+2019-06-26 11:54:20,831 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-5] Starting Log
+2019-06-26 11:54:20,835 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-5] REQUEST: GET: /emp/all completed within 3 ms
+2019-06-26 11:54:29,880 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-7] Starting Log
+2019-06-26 11:54:29,885 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-7] REQUEST: DELETE: /emp/delete/5 completed within 4 ms
+2019-06-26 11:54:32,997 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-8] Starting Log
+2019-06-26 11:54:33,000 INFO c.m.SpringBootRestMvc1Application [http-nio-8080-exec-8] REQUEST: GET: /emp/all completed within 3 ms
