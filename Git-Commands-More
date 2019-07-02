@@ -1,0 +1,3 @@
+deletes the local git repositary
+  rm -rf <git-repo-name>
+  
