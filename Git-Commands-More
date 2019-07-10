@@ -1,3 +1,20 @@
 deletes the local git repositary
   rm -rf <git-repo-name>
-  
+Branches are best used when doing a pull request (unless the pull request is very small or few people work on the repository).
+
+The steps to take would be:
+
+  Fork a repository on GitHub                                               git branch <fixing-branch-name>
+  Clone it onto your computer                                               
+  Make a branch and move to it:                                             git checkout -b <fixing-branch-name>
+  Make changes to the files
+  Commit the changes to the history                                         git add .
+                                                                            git status
+                                                                            git commit -m "Commit-message"
+                                                                    
+  Push the branch up to your forked version:                                git push origin <fixing-branch-name>
+  On GitHub, submit a Pull Request of your fixingBranch
+  Once the pull request is merged, delete the fixingBranch on your forked repo on GitHub and on your computer   
+                                                                            git checkout master && 
+                                                                            git pull upstream master && 
+                                                                            git branch -d fixingBranch
