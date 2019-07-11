@@ -1,5 +1,6 @@
 deletes the local git repositary
   rm -rf <git-repo-name>
+------------------------------------
 Branches are best used when doing a pull request (unless the pull request is very small or few people work on the repository).
 
 The steps to take would be:
@@ -18,3 +19,4 @@ The steps to take would be:
                                                                             git checkout master && 
                                                                             git pull upstream master && 
                                                                             git branch -d fixingBranch
+---------------------------------------
